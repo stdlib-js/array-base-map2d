@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import map2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@deno/mod.js';
+import map2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@v0.2.1-deno/mod.js';
 ```
 
 #### map2d( x, shape, fcn\[, thisArg] )
@@ -155,7 +155,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import map2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@deno/mod.js';
+import map2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map2d@v0.2.1-deno/mod.js';
 
 var shape = [ 3, 3 ];
 
