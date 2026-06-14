@@ -1,7 +1,7 @@
-"use strict";var f=function(e,a){return function(){return a||e((a={exports:{}}).exports,a),a.exports}};var p=f(function(R,l){
-function q(e,a,n,c){var o,t,i,r,v,s,u;for(o=a[1],t=a[0],u=[],r=0;r<t;r++){for(v=e[r],s=[],i=0;i<o;i++)s.push(n.call(c,v[i],[r,i],e));u.push(s)}return u}l.exports=q
+"use strict";var f=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var p=f(function(R,l){
+function q(e,r,t,c){var o,s,i,a,v,u,n;for(o=r[1],s=r[0],n=[],a=0;a<s;a++){for(v=e[a],u=[],i=0;i<o;i++)u.push(t.call(c,v[i],[a,i],e));n.push(u)}return n}l.exports=q
 });var d=f(function(b,S){
-function x(e,a,n,c,o){var t,i,r,v,s,u;if(t=n[1],i=n[0],t<=0||i<=0)return a;for(v=0;v<i;v++)for(s=e[v],u=a[v],r=0;r<t;r++)u[r]=c.call(o,s[r],[v,r],e);return a}S.exports=x
+function x(e,r,t,c,o){var s,i,a,v,u,n;if(s=t[1],i=t[0],s<=0||i<=0)return r;for(v=0;v<i;v++)for(u=e[v],n=r[v],a=0;a<s;a++)n[a]=c.call(o,u[a],[v,a],e);return r}S.exports=x
 });var g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),m=p(),y=d();g(m,"assign",y);module.exports=m;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
